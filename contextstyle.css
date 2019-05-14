@@ -1,0 +1,90 @@
+.hero {
+    background-image: ;
+    background-size: cover;
+    min-width: 640px;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Futura', 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cochin', serif;
+    font-size: 60px;
+    color: #f44242;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 20px;
+    color:;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.demoVideo {
+position: center;
+<!--z-index: 20;-->
+background-color: transparent;
+min-width: 75%;
+min-height: 75%;
+margin-left: 10%;
+top: 10%;
+border: 1px white solid;
+}
+
+nav {
+    text-align: left;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 15px;
+    color:;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a:link {text-decoration: none; color: #000000;}
+a:visited {text-decoration: none; color:#000000;}
+a:hover {text-decoration: none; color: #f44242;}
+
+.rightblock {
+    text-align: center;
+}
+
+h3 {text-align: right;
+    margin-top: -75px;
+    margin-right: 10px;
+    'Futura','Raleway', 'sans-serif';
+    font-size: 22px;
+    color: #000000;
+}
+
+h4 {
+    margin-right: 10px;
+    font-family: 'Futura','Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #f44242;
+}
+
+p   {text-align: center;
+    margin-right: 10px;
+    font-family: 'Futura','Raleway', 'sans-serif';
+    font-size: 20px;
+    color: #000000;
+}

@@ -1,0 +1,175 @@
+.hero {
+    background-image: url("https://media.giphy.com/media/9G6N9aLhjBf4WuZRWk/giphy.gif");
+    background-size: cover;
+    min-width: 640px;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Futura', 'Raleway', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    font-size: 50px;
+    color: #21366E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 15px;
+    color: #21366E;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Avenir','Raleway', sans-serif;
+    font-size: 15px;
+    color: #21366E;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h7 {
+    text-align: center;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+h8 {
+    text-align: center;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 25px;
+    color: #F4633A;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+nav {
+    text-align: left;
+    font-family: 'Futura','Raleway', sans-serif;
+    font-size: 15px;
+    color: #21366E;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+a:link {text-decoration: none; color: #21366E;}
+a:visited {text-decoration: none; color: #21366E;}
+a:hover {text-decoration: none; color: #F4633A;}
+
+h3 {
+    text-align: right;
+    margin-top: 440px;
+    margin-right: 10px;
+    font-family: 'Futura','Raleway', 'sans-serif';
+    font-size: 25px;
+    color: #F4633A;
+}
+
+p { font-size: 12px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 20px;
+  font-family: 'Futura', 'sans-serif';
+  color: #21366E;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-family: 'Futura', 'sans-serif';
+  color: #21366E;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #F4633A;
+}
+
+.btn.active {
+  background-color: #ffffff;
+  color: #21366E;
+  font-size: 14px
+}
